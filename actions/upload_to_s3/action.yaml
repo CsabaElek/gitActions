@@ -1,0 +1,25 @@
+name: 'Upload File(s) to S3 bucket'
+description: 'Upload a file/folder into S3'
+author: 'Csaba Elek'
+inputs:
+    bucket_name:  
+        description: 'Name of the S3 bucket to upload to'
+        required: true
+        default: 's3-playground-echo'
+    destination:  
+        description: 'Name of the S3 bucket destination folder to upload to'
+        required: true
+        default: 'maintenance-pages'
+    uploadPath:
+        description: 'Path where the uploadable files/folders reside'
+        required: true
+        default: './'
+env:
+    AWS_DEFAULT_REGION: eu-central-1
+runs:
+  using: "composite"
+  steps:
+    - id: upload_to_s3
+      run: |
+        aws s3 cp ${{ inputs.uploadPath }} s3://${{ inputs.bucket_name }}/${{ inputs.destination }} --recursive --cache-control max-age=60 --exclude ".git*" --exclude ".editorconfig" --exclude "README.*"
+      shell: bash

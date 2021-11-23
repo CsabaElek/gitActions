@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="countries-(1)" fill-rule="nonzero">
+            <path d="M0,37.5 C0,42.0870117 0.825146484,46.480957 2.3324707,50.5434082 L37.5,53.8042969 L72.6675293,50.5434082 C74.1748535,46.480957 75,42.0870117 75,37.5 C75,32.9129883 74.1748535,28.519043 72.6675293,24.4565918 L37.5,21.1957031 L2.3324707,24.4565918 C0.825146484,28.519043 0,32.9129883 0,37.5 Z" id="Path" fill="#FFDA44"></path>
+            <g id="Group" transform="translate(2.197266, 0.000000)" fill="#D80027">
+                <path d="M70.4702637,24.4565918 C65.1717773,10.176709 51.426416,0 35.3027344,0 C19.1790527,0 5.43369141,10.176709 0.135205078,24.4565918 L70.4702637,24.4565918 Z" id="Path"></path>
+                <path d="M0.135205078,50.5434082 C5.43369141,64.823291 19.1790527,75 35.3027344,75 C51.426416,75 65.1717773,64.823291 70.4702637,50.5434082 L0.135205078,50.5434082 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

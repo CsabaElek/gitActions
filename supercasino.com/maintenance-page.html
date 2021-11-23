@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>503 – Site Maintenance</title>
+	<!-- dataLayer Initialization-->
+	<script>
+		var VirtualURL = window.location.pathname + window.location.search;
+		dataLayer = [{
+			"gtm_init_brand": "supercasino",
+			"gtm_static": true,
+			"LobbyName": "INTERNAL_ERROR",
+			"VirtualUrl": VirtualURL,
+			"VirtualTitle": document.title,
+			"CurrentTargetUrl": VirtualURL
+		}];
+	</script>
+	<!-- End dataLayer Initialization-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<!-- Optimize Page Hiding Snippet -->
+	<style>
+		.async-hide {
+			opacity: 0 !important
+		}
+	</style>
+	<script>
+			(function(a,s,y,n,c,h,i,d,e){s.className += ' ' + y;h.start=1*new Date;
+			h.end=i=function(){s.className = s.className.replace(RegExp(' ?' + y), '')};
+			(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+			})(window,document.documentElement,'async-hide','dataLayer',4000,
+			{'GTM-K6TK8TN':true});
+	</script>
+	<!-- end Optimize Page Hiding Snippet -->
+	<!-- Analytics-Optimize Snippet -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i["GoogleAnalyticsObject"] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			},
+				i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga("create", "UA-4918586-1", "auto", { allowLinker: true });
+		ga("require", "GTM-K6TK8TN");
+	</script>
+	<!-- end Analytics-Optimize Snippet -->
+	<!-- Activate Google Optimize Experiment -->
+	<script>
+		dataLayer.push({
+			"event": "optimize.activate"
+		});
+	</script>
+	<!-- End Activate Google Optimize Experiment -->
+	<!-- Google Tag Manager -->
+	<script name="gtm">
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-N5MCKBB');
+		dataLayer.push({
+			"event": "virtualPageView"
+		});
+	</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5MCKBB" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="obg-error-layout">
+		<div class="obg-error-layout-header">
+			<img src="./supercasino-logo.svg" alt="SuperCasino logo">
+		</div>
+		<div class="obg-error-layout-content">
+			<div class="obg-maintenance-icon"><img src="./maintenance-icon.svg" alt="Maintenance mode"></div>
+			<h1 class="obg-maintenance-main-title">Sorry, we are down for maintenance.</h1>
+			<p class="obg-maintenance-subtitle">We will be back shortly.</p>
+			<div class="obg-maintenance-container">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

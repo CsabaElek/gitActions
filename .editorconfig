@@ -1,0 +1,20 @@
+[*.{js,ts,scss}]
+charset = utf-8
+indent_style = tab
+trim_trailing_whitespace = true
+spaces_around_operators = inside
+insert_final_newline = false
+
+[*.{cshtml,html,json}]
+charset = utf-8
+indent_style = tab
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
