@@ -45,7 +45,6 @@ build {
     "source.amazon-ebs.gh-runner"
   ]
   provisioner "shell" {
-    environment_vars=["REPOSITORY=${data.amazon-parameterstore.GitHubRepository.value}","TOKEN=${data.amazon-parameterstore.RepositoryToken.value}","USER=${data.amazon-parameterstore.GitHubUser.value}"]
     script = "runner-agent.sh"
   }
 }
